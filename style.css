@@ -1,0 +1,123 @@
+*{
+	padding: 0;
+	margin: 0;
+	border:0px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.white{
+	color: white;
+}
+
+.navbar{
+    display: flex;
+	padding:30px;
+}
+
+.nav-list{
+	display: flex;
+	align-items: center;
+	justify-content:flex-end;
+}
+
+.nav-list li{
+	list-style: none;
+	padding: 0px 20px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+	font-size: 15px;
+}
+
+.nav-list li a:hover{
+    color: grey;
+}
+
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	text-align: center;
+	width: 500px;
+	
+}
+
+.container2{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	text-align: center;
+	width: 1000px;
+	
+}
+
+.donate{
+	padding: 25px;
+	background-color: white;
+    border: solid #391292 5px;
+	border-radius: 10px;
+}
+
+label{
+    display: inline-block;
+    width: 20%;
+    text-align:start;
+}
+
+input, textarea {
+  display: inline-block;
+  width: 70%;
+  padding: 5px;
+  border-radius: 5px;
+
+}
+
+.about{
+	display: flex;
+}
+
+img{
+	width: 300px;	
+	opacity: 0.8;
+}
+
+.background{
+	background:rgba(0, 0, 0, 0.4) url('H.jpg');
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-blend-mode:darken;
+}
+
+.content{
+	min-height:93vh;
+}
+
+.btn{
+	border:solid white;
+	padding: 20px;
+	background:#391292; 
+	color:white;
+	letter-spacing: 1px;
+	font-size: 15px;
+	border-radius: 20px;
+}
+
+.btn2{
+	padding: 25px;
+	background-color: #391292;
+	color:white;
+	border-radius: 8px;
+}
+
+button:hover{
+	transform: scale(1.1);
+}
+
+footer{
+	text-align: center;
+	background-color: white;
+	overflow: hidden;
+	padding-top: 5px;
+}
